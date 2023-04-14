@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SW-Configuration>
+    <MobileData>
+        <PublicName>SM-A750F</PublicName>
+    </MobileData>
+    <OmcYn>Y</OmcYn>
+    <MultiCode>ODM</MultiCode>
+    <CustomerDataSet>
+        <CSCName>A750FODM</CSCName>
+        <CSCVersion>5CVI1</CSCVersion>
+        <NbCustomer>4</NbCustomer>
+        <CustomerData src="/Customer/INS/customer.xml" />
+        <CustomerData src="/Customer/BNG/customer.xml" />
+        <CustomerData src="/Customer/NPL/customer.xml" />
+        <CustomerData src="/Customer/SLK/customer.xml" />
+    </CustomerDataSet>
+    <OmcInfo>
+        <OmcCode>
+            <CustomerCode>BNG</CustomerCode>
+            <Version>SAOMC_SM-A750F_ODM_BNG_QQ_0016</Version>
+            <CustomerEdition>ED0006</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>INS</CustomerCode>
+            <Version>SAOMC_SM-A750F_ODM_INS_QQ_0024</Version>
+            <CustomerEdition>ED0010</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>NPL</CustomerCode>
+            <Version>SAOMC_SM-A750F_ODM_NPL_QQ_0010</Version>
+            <CustomerEdition>ED0005</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>SLK</CustomerCode>
+            <Version>SAOMC_SM-A750F_ODM_SLK_QQ_0012</Version>
+            <CustomerEdition>ED0007</CustomerEdition>
+        </OmcCode>
+    </OmcInfo>
+</SW-Configuration>
